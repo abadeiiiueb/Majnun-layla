@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171522">
+<title>مجنون ليلى | ديوان قيس بن الملوّح</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap');
+:root{--ink:#251d27;--muted:#786b70;--paper:#f6eddf;--paper2:#fff9ef;--wine:#763e50;--gold:#c59c67;--night:#171522}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'Cairo',sans-serif;line-height:1.9}
+a{color:inherit}.hero{min-height:84vh;color:#fff6e8;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 25%,#6a4b5c 0,transparent 34%),radial-gradient(ellipse at 18% 75%,#6e473d 0,transparent 30%),linear-gradient(135deg,#171522,#29202d 60%,#3d2934);padding:2rem 1.2rem}
+.hero:before{content:"☾";position:absolute;left:9%;top:5%;font-size:clamp(5rem,17vw,13rem);color:#e9cc9a;opacity:.8}.hero:after{content:"✦   ·      ✧        ·     ✦";position:absolute;inset:12% 5% auto;color:#d8b88c;letter-spacing:1.3rem;opacity:.55}
+.hero-inner{width:min(100%,1000px);margin:auto;position:relative;z-index:1;text-align:center}.eyebrow{letter-spacing:.12em;color:#e4c89e;font-size:.88rem}.hero h1{font-family:'Amiri',serif;font-size:clamp(3.5rem,12vw,7rem);line-height:1.2;margin:.25rem 0;color:#f7dfbb;font-weight:700}.hero h2{font-size:1.15rem;font-weight:400;margin:.3rem 0 1.4rem}.hero p{max-width:620px;margin:1rem auto;color:#e9dfe0}.ornament{color:var(--gold);letter-spacing:.6rem;margin:1.2rem}.button{display:inline-block;border:1px solid #d5b17e;color:#fff6e8;text-decoration:none;padding:.7rem 1.5rem;border-radius:99px;margin:.35rem;background:transparent;font:inherit;cursor:pointer}.button:hover{background:#ffffff15}.topnav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:.25rem;flex-wrap:wrap;padding:.6rem;background:#171522ee;backdrop-filter:blur(12px);color:#fff1dc}.topnav a{padding:.35rem .8rem;text-decoration:none;font-size:.9rem}.topnav a:hover{color:#e5bd87}.wrap{width:min(100% - 2rem,1050px);margin:3rem auto}.section-title{text-align:center;margin-bottom:1.5rem}.section-title h2{font:700 2.4rem 'Amiri',serif;margin:.1rem}.section-title p{color:var(--muted);margin:.1rem}.letter,.poem,.about-card{background:var(--paper2);border:1px solid #e4d3bb;box-shadow:0 12px 35px #34211a0b;border-radius:18px;padding:clamp(1.2rem,4vw,2.5rem)}.letter{max-width:760px;margin:auto;position:relative}.letter h3{font:700 2rem 'Amiri',serif;color:var(--wine);margin-top:0}.letter p{margin:.4rem 0}.signature{color:var(--wine);font-weight:700;margin-top:1rem}.search{display:block;width:100%;max-width:520px;margin:1rem auto 1.5rem;padding:.85rem 1rem;border:1px solid #d9c5ab;border-radius:99px;background:#fffaf2;font:inherit}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:1rem}.poem{padding:1.25rem;display:flex;flex-direction:column}.poem h3{font:700 1.6rem 'Amiri',serif;margin:.25rem 0;color:var(--wine)}.tag{align-self:flex-start;border-radius:99px;background:#eee0cb;color:#654c44;padding:.1rem .65rem;font-size:.76rem}.tag.new{background:#f3dce2;color:#7b3448}.verses{font:400 1.3rem/2.1 'Amiri',serif;white-space:pre-line;margin:.8rem 0}.note{font-size:.85rem;color:var(--muted);margin-top:auto;border-top:1px solid #eadbc9;padding-top:.7rem}.poem button{align-self:flex-start;margin-top:.6rem;border:0;background:transparent;color:var(--wine);font:inherit;cursor:pointer}.favorites{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center}.quote{background:#211a28;color:#f7e8d2;border-radius:14px;padding:1.1rem 1.3rem;font:1.35rem/2 'Amiri',serif}.quote small{display:block;color:#d6b98d;font: .8rem 'Cairo',sans-serif}.foot{text-align:center;padding:2rem 1rem;background:#171522;color:#eee0d0}.foot p{margin:.3rem}.tiny{font-size:.8rem;color:#bcaeb5}.hidden{display:none!important}footer a{color:#e5bd87} 
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero" id="home">
+ <div class="hero-inner">
+  <div class="eyebrow">حكايةُ حبٍّ سكنت الشعر</div>
+  <h1>مجنون ليلى</h1>
+  <h2>ديوان قيس بن الملوّح</h2>
+  <div class="ornament">❧ ✦ ❧</div>
+  <p>إلى التي وجدت في حكاية قيس وليلى شيئًا من سحر الشعر…<br>هذه الصفحات هدية صغيرة، صُنعت بمحبة لتبقى قريبة منكِ.</p>
+  <a class="button" href="#poems">ابدئي القراءة　❧</a>
+  <a class="button" href="#letter">رسالة لكِ</a>
+ </div>
+</header>
+<nav class="topnav" aria-label="التنقل">
+ <a href="#home">الرئيسية</a><a href="#letter">رسالة لكِ</a><a href="#poems">القصائد</a><a href="#more-poems">أبيات إضافية</a><a href="#sorted-poems">فهرس مرتب</a><a href="#catalogue">كل القصائد</a><a href="#original">كلمات جديدة</a><a href="#expanded-index">فهرس موسّع</a><a href="#about">عن الديوان</a>
+</nav>
+<main>
+<section class="wrap" id="letter">
+ <div class="section-title"><div class="ornament">❦</div><h2>إلى حبيبتي</h2><p>رسالة لا تشبه سواها</p></div>
+ <article class="letter">
+  <h3>إلى التي أحبّت الشعر…</h3>
+  <p>أعرف أن ديوان مجنون ليلى قريب إلى قلبكِ، ففكّرت أن أهديكِ شيئًا لا يوضع على رفّ، بل يظلّ معكِ أينما كنتِ.</p>
+  <p>جمعتُ لكِ هذه الصفحة كأنها كتاب صغير، كلما اشتقتِ إلى بيتٍ من الشعر عدتِ إليه، وكلما فتحتِها تذكّرتِ أن شخصًا ما أراد أن يصنع لكِ شيئًا على مقاس قلبكِ.</p>
+  <p>ليست كل الكلمات هنا من تأليفي، وليست كل الأبيات القديمة ثابتة النسبة؛ لكن فكرة هذه الهدية، وكلّ ما كُتب فيها لكِ خصيصًا، هو مني أنا.</p>
+  <p class="signature">من شخص يتمنى أن تبتسمي كلما مررتِ من هنا ♥</p>
+ </article>
+</section>
+<section class="wrap" id="poems">
+ <div class="section-title"><div class="ornament">❧</div><h2>من قصائد قيس</h2><p>مختارات أولية — قد تختلف الروايات ونسبة بعض الأبيات بين المصادر</p></div>
+ <input class="search" id="search" type="search" placeholder="ابحثي عن عنوان أو كلمة في القصيدة…" aria-label="البحث في القصائد">
+ <div class="grid" id="poemGrid">
+  <article class="poem" data-search="أمر على الديار ليلى">
+   <span class="tag">منسوب إلى قيس — يحتاج مقابلة مصدر</span>
+   <h3>أمرُّ على الديار</h3>
+   <div class="verses">أَمُرُّ عَلَى الدِّيَارِ دِيَارِ لَيْلَى
+أُقَبِّلُ ذَا الجِدَارَ وَذَا الجِدَارَا</div>
+   <p class="note">بيت مشهور متداول منسوب إلى قيس بن الملوّح؛ يُستحسن التحقق من الرواية في طبعة محققة قبل اعتباره نصًا موثقًا.</p>
+  </article>
+  <article class="poem" data-search="تعلقت ليلى">
+   <span class="tag">منسوب إلى قيس — رواية متداولة</span>
+   <h3>في ذكر ليلى</h3>
+   <div class="verses">تَعَلَّقْتُ لَيْلَى وَهْيَ ذَاتُ تَمَائِمٍ
+وَلَمْ يَبْدُ لِلْأَتْرَابِ مِنْ ثَدْيِهَا حَجْمُ</div>
+   <p class="note">مطلع مشهور في الروايات المتداولة عن قيس؛ تختلف تفاصيل الألفاظ وضبطها في النقل.</p>
+  </article>
+  <article class="poem" data-search="أحب من الأسماء">
+   <span class="tag">منسوب إليه في التداول</span>
+   <h3>اسم ليلى</h3>
+   <div class="verses">أُحِبُّ مِنَ الأَسْمَاءِ مَا وَافَقَ اسْمَهَا
+أَوْ أَشْبَهَهُ أَوْ كَانَ مِنْهُ مُدَانِيَا</div>
+   <p class="note">بيت متداول على أنه من شعر قيس؛ النسبة تحتاج إلى مراجعة مصدر أدبي موثوق.</p>
+  </article>
+ </div>
+ <p class="tiny" style="text-align:center;margin-top:1rem">هذه نسخة أولية وليست تحقيقًا نقديًا كاملًا للديوان. أضفنا ملاحظات نسبة بدل الجزم بصحة كل نص.</p>
+</section>
+
+<section class="wrap" id="more-poems">
+ <div class="section-title"><div class="ornament">❦</div><h2>صفحات إضافية من الديوان</h2><p>أبيات أكثر — مع الإشارة إلى مصدر الرواية</p></div>
+ <div class="grid" id="morePoemGrid">
+  <article class="poem" data-search="تذكرت ليلى والسنين الخواليا الأيام">
+   <span class="tag">نص تراثي — ويكي مصدر</span>
+   <h3>تذكّرتُ ليلى والسنين الخواليا</h3>
+   <div class="verses">تَذَكَّرْتُ لَيْلَى وَالسِّنِينَ الْخَوَالِيَا
+وَأَيَّامَ لَا نَخْشَى عَلَى اللَّـهْوِ نَاهِيَا
+
+بِثَمْدَيْنِ لَاحَتْ نَارُ لَيْلَى وَصَحْبَتِي
+بِذَاتِ الْغَضَا تَزْجِي الْمَطِيَّ النَّوَاجِيَا
+
+فَقَالَ بَصِيرُ الْقَوْمِ أَلْمَحْتُ كَوْكَبًا
+بَدَا فِي سَوَادِ اللَّيْلِ فَرْدًا يَمَانِيَا
+
+فَقُلْتُ لَهُ بَلْ نَارُ لَيْلَى تَوَقَّدَتْ
+بِعَلْيَا تَسَامَى ضَوْؤُهَا فَبَدَا لِيَا
+
+فَلَيْتَ رِكَابَ الْقَوْمِ لَمْ تَقْطَعِ الْغَضَا
+وَلَيْتَ الْغَضَا مَاشَى الرِّكَابَ لَيَالِيَا</div>
+   <p class="note">المصدر: ويكي مصدر، صفحة «تذكرت ليلى والسنين الخواليا». هذه مقتطفات من قصيدة طويلة، وقد تختلف الضبطات بين النسخ. <a href="https://ar.wikisource.org/wiki/تذكرت_ليلى_والسنين_الخواليا" target="_blank" rel="noopener">قراءة النص المصدر ↗</a></p>
+  </article>
+  <article class="poem" data-search="تعلقت ليلى ذات ذوابة صغيرين نرعى البهم">
+   <span class="tag">مروي في مصدر تراثي</span>
+   <h3>تعلّقت ليلى</h3>
+   <div class="verses">تَعَلَّقَتْ لَيْلَى وَهْيَ ذَاتُ ذُؤَابَةٍ
+وَلَمْ يَبْدُ لِلْأَتْرَابِ مِنْ ثَدْيِهَا حَجْمُ
+
+صَغِيرَيْنِ نَرْعَى الْبَهْمَ يَا لَيْتَ أَنَّنَا
+إِلَى الْيَوْمِ لَمْ نَكْبَرْ وَلَمْ تَكْبَرِ الْبَهْمُ</div>
+   <p class="note">ورد البيتان في ترجمة قيس ضمن «سير أعلام النبلاء» على ويكي مصدر؛ نسبة الشعر القديم قد تختلف بين الروايات. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">قراءة المصدر ↗</a></p>
+  </article>
+  <article class="poem" data-search="أظن هواها تاركي بمضلة الأرض لا مال">
+   <span class="tag">مروي في مصدر تراثي</span>
+   <h3>أظنّ هواها</h3>
+   <div class="verses">أَظُنُّ هَوَاهَا تَارِكِي بِمَضَلَّةٍ
+مِنَ الْأَرْضِ لَا مَالٌ لَدَيَّ وَلَا أَهْلُ
+
+وَلَا أَحَدٌ أَقْضِي إِلَيْهِ وَصِيَّتِي
+وَلَا وَارِثٌ إِلَّا الْمَطِيَّةُ وَالرَّحْلُ
+
+مَحَا حُبُّهَا حُبَّ الْأُلَى كُنَّ قَبْلَهَا
+وَحَلَّتْ مَكَانًا لَمْ يَكُنْ حَلَّ مِنْ قَبْلُ</div>
+   <p class="note">الأبيات واردة في ترجمة قيس في «سير أعلام النبلاء» المنقولة على ويكي مصدر. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">قراءة المصدر ↗</a></p>
+  </article>
+  <article class="poem" data-search="وداع دعا إذ نحن بالخيف من منى ليلى">
+   <span class="tag">مروي في مصدر تراثي</span>
+   <h3>وداعٌ دعا</h3>
+   <div class="verses">وَدَاعٍ دَعَا إِذْ نَحْنُ بِالْخَيْفِ مِنْ مِنًى
+فَهَيَّجَ أَطْرَابَ الْفُؤَادِ وَمَا يَدْرِي
+
+دَعَا بِاسْمِ لَيْلَى غَيْرَهَا فَكَأَنَّمَا
+أَطَارَ بِلَيْلَى طَائِرًا كَانَ فِي صَدْرِي</div>
+   <p class="note">يرد البيتان في ترجمة قيس على ويكي مصدر، مع اختلافات محتملة في ضبط الألفاظ. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">قراءة المصدر ↗</a></p>
+  </article>
+  <article class="poem" data-search="أيا حرجات الحي حيث تحملوا بذي سلم">
+   <span class="tag">مروي في مصدر تراثي</span>
+   <h3>أيا حرجات الحي</h3>
+   <div class="verses">أَيَا حَرَجَاتِ الْحَيِّ حَيْثُ تَحَمَّلُوا
+بِذِي سَلَمٍ لَا جَادَكُنَّ رَبِيعُ
+
+وَخَيْمَاتُكِ اللَّاتِي بِمُنْعَرَجِ اللِّوَى
+بَلِينَ بِلًى لَمْ تَبْلُهُنَّ رُبُوعُ</div>
+   <p class="note">وردت الأبيات في ترجمة قيس ضمن «سير أعلام النبلاء» على ويكي مصدر. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">قراءة المصدر ↗</a></p>
+  </article>
+  <article class="poem" data-search="إني لأجلس في النادي أحدثهم فأستفيق">
+   <span class="tag">مروي في مصدر تراثي</span>
+   <h3>إني لأجلس في النادي</h3>
+   <div class="verses">إِنِّي لَأَجْلِسُ فِي النَّادِي أُحَدِّثُهُمْ
+فَأَسْتَفِيقُ وَقَدْ غَالَتْنِيَ الْغُولُ
+
+يَهْوِي بِقَلْبِي حَدِيثُ النَّفْسِ نَحْوَكُمُ
+حَتَّى يَقُولَ جَلِيسِي أَنْتَ مَخْبُولُ</div>
+   <p class="note">البيتان مذكوران في ترجمة قيس على ويكي مصدر؛ النسبة هنا منقولة عن مصدر تراثي لا تحقيق حديث مستقل. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">قراءة المصدر ↗</a></p>
+  </article>
+ </div>
+</section>
+
+
+<section class="wrap" id="sorted-poems">
+ <div class="section-title"><div class="ornament">✦ ❧ ✦</div><h2>مختارات مرتّبة من الديوان</h2><p>قصائد مرتبة بحسب المطلع، مع مصدر الرواية بجانب كل نص</p></div>
+ <div class="about-card" style="margin-bottom:1rem">
+  <h3 style="font-family:'Amiri',serif;color:#763e50;font-size:1.6rem">فهرس القراءة</h3>
+  <p>اختاري عنوانًا للانتقال إلى القصيدة. الترتيب هنا أبجدي بحسب مطلع القصيدة، لا بحسب زمن كتابتها.</p>
+  <ol style="columns:2;column-gap:2rem">
+   <li><a href="#poem-a">أظنّ هواها</a></li>
+   <li><a href="#poem-b">أيا حرجات الحي</a></li>
+   <li><a href="#poem-c">تعلّقت ليلى</a></li>
+   <li><a href="#poem-d">وداعٌ دعا</a></li>
+   <li><a href="#poem-e">إني لأجلس في النادي</a></li>
+   <li><a href="#poem-f">صغيرين نرعى البهم</a></li>
+  </ol>
+ </div>
+ <div class="grid">
+  <article class="poem" id="poem-a" data-search="أظن هواها تاركي مضلة الأرض مال أهل">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>أظنّ هواها</h3>
+   <div class="verses">أَظُنُّ هَوَاهَا تَارِكِي بِمَضَلَّةٍ
+مِنَ الْأَرْضِ لَا مَالٌ لَدَيَّ وَلَا أَهْلُ
+
+وَلَا أَحَدٌ أَقْضِي إِلَيْهِ وَصِيَّتِي
+وَلَا وَارِثٌ إِلَّا الْمَطِيَّةُ وَالرَّحْلُ
+
+مَحَا حُبُّهَا حُبَّ الْأُلَى كُنَّ قَبْلَهَا
+وَحَلَّتْ مَكَانًا لَمْ يَكُنْ حَلَّ مِنْ قَبْلُ</div>
+   <p class="note">وردت الأبيات في ترجمة قيس بكتاب «سير أعلام النبلاء». <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+  <article class="poem" id="poem-b" data-search="أيا حرجات الحي حيث تحملوا ذي سلم ربيع">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>أيا حرجات الحي</h3>
+   <div class="verses">أَيَا حَرَجَاتِ الْحَيِّ حَيْثُ تَحَمَّلُوا
+بِذِي سَلَمٍ لَا جَادَكُنَّ رَبِيعُ
+
+وَخَيْمَاتُكِ اللَّاتِي بِمُنْعَرَجِ اللِّوَى
+بَلِينَ بِلًى لَمْ تَبْلُهُنَّ رُبُوعُ</div>
+   <p class="note">وردت الأبيات في ترجمة قيس بكتاب «سير أعلام النبلاء». <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+  <article class="poem" id="poem-c" data-search="تعلقت ليلى وهي ذات ذوابة الأتراب">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>تعلّقت ليلى</h3>
+   <div class="verses">تَعَلَّقَتْ لَيْلَى وَهْيَ ذَاتُ ذُؤَابَةٍ
+وَلَمْ يَبْدُ لِلْأَتْرَابِ مِنْ ثَدْيِهَا حَجْمُ</div>
+   <p class="note">ورد البيت في ترجمة قيس بكتاب «سير أعلام النبلاء»، وتختلف روايات هذا المطلع. <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+  <article class="poem" id="poem-d" data-search="وداع دعا إذ نحن بالخيف من منى أطراب">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>وداعٌ دعا</h3>
+   <div class="verses">وَدَاعٍ دَعَا إِذْ نَحْنُ بِالْخَيْفِ مِنْ مِنًى
+فَهَيَّجَ أَطْرَابَ الْفُؤَادِ وَلَمْ يَدْرِ
+
+دَعَا بِاسْمِ لَيْلَى غَيْرَهَا فَكَأَنَّمَا
+أَطَارَ بِلَيْلَى طَائِرًا كَانَ فِي صَدْرِي</div>
+   <p class="note">ورد البيتان في ترجمة قيس بكتاب «سير أعلام النبلاء». <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+  <article class="poem" id="poem-e" data-search="إني لأجلس في النادي أحدثهم أستفيق الغول">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>إني لأجلس في النادي</h3>
+   <div class="verses">إِنِّي لَأَجْلِسُ فِي النَّادِي أُحَدِّثُهُمْ
+فَأَسْتَفِيقُ وَقَدْ غَالَتْنِيَ الْغُولُ
+
+يَهْوِي بِقَلْبِي حَدِيثُ النَّفْسِ نَحْوَكُمْ
+حَتَّى يَقُولَ جَلِيسِي أَنْتَ مَخْبُولُ</div>
+   <p class="note">وردت الأبيات في ترجمة قيس بكتاب «سير أعلام النبلاء». <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+  <article class="poem" id="poem-f" data-search="صغيرين نرعى البهم يا ليت أننا نكبر">
+   <span class="tag">رواية تراثية — الذهبي</span><h3>صغيرين نرعى البهم</h3>
+   <div class="verses">صَغِيرَيْنِ نَرْعَى الْبَهْمَ يَا لَيْتَ أَنَّنَا
+إِلَى الْيَوْمِ لَمْ نَكْبَرْ وَلَمْ تَكْبَرِ الْبَهْمُ</div>
+   <p class="note">ورد البيت في ترجمة قيس بكتاب «سير أعلام النبلاء». <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">المصدر ↗</a></p>
+  </article>
+ </div>
+</section>
+
+
+<section class="wrap" id="catalogue">
+ <div class="section-title"><div class="ornament">❦ ✦ ❦</div><h2>فهرس أوسع للقصائد</h2><p>مجموعة إضافية مرتّبة أبجديًا، مع روابط مباشرة إلى نصوص القصائد</p></div>
+ <div class="about-card" style="margin-bottom:1rem">
+  <p>هذه الإضافة توسّع الفهرس بروابط مباشرة إلى صفحات القصائد المنشورة في ويكي مصدر. افتحي أي عنوان لقراءة النص الكامل ومقارنة الرواية. أما القصائد التي أُدرجت أبياتها داخل هذه الصفحة فتبقى منفصلة عن هذا الفهرس، حتى لا تختلط النصوص المنقولة بروابط المصادر.</p>
+  <p><a class="button" style="background:#763e50" href="https://ar.wikisource.org/wiki/ملف:ديوان_قيس_بن_الملوح.pdf" target="_blank" rel="noopener">فتح نسخة مصوّرة من الديوان ↗</a>
+  <a class="button" style="background:#763e50" href="https://ar.wikisource.org/wiki/تصنيف:قيس_بن_الملوح_(مجنون_ليلى)" target="_blank" rel="noopener">فتح فهرس الشاعر ↗</a></p>
+  <p class="note">المراجع: فهرس قيس بن الملوّح ونسخة مصوّرة قديمة من الديوان على ويكي مصدر. قد تختلف العناوين والروايات بين الطبعات.</p>
+ </div>
+ <div class="grid" id="catalogueGrid">
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D8%A3%D8%AA%D8%B1%D9%83_%D9%84%D9%8A%D9%84%D9%89_%D9%84%D9%8A%D8%B3_%D8%A8%D9%8A%D9%86%D9%8A_%D9%88%D8%A8%D9%8A%D9%86%D9%87%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أأترك ليلى ليس بيني وبينها</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D8%AD%D9%86_%D8%A5%D9%84%D9%89_%D9%84%D9%8A%D9%84%D9%89_%D9%88%D8%A5%D9%86_%D8%B4%D8%B7%D8%AA_%D8%A7%D9%84%D9%86%D9%88%D9%89" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أحن إلى ليلى وإن شطت النوى</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%84%D8%A7_%D9%84%D9%8A%D8%AA%D9%86%D8%A7_%D9%83%D9%86%D8%A7_%D8%BA%D8%B2%D8%A7%D9%84%D9%8A%D9%86_%D9%86%D8%B1%D8%AA%D8%B9%D9%8A" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ألا ليتنا كنا غزالين نرتعي</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%84%D9%8A%D8%B3_%D8%A7%D9%84%D9%84%D9%8A%D9%84_%D9%8A%D8%AC%D9%85%D8%B9%D9%86%D9%8A_%D9%88%D9%84%D9%8A%D9%84%D9%89" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أليس الليل يجمعني وليلى</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%84%D8%A7_%D9%8A%D8%A7_%D8%AD%D9%85%D8%A7%D9%85%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D9%85%D9%89_%D8%B9%D8%AF%D9%86_%D8%B9%D9%88%D8%AF%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ألا يا حمامات الحمى عدن عودة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%84%D8%A7_%D9%8A%D8%A7_%D9%86%D8%B3%D9%8A%D9%85_%D8%A7%D9%84%D8%B1%D9%8A%D8%AD_%D8%AD%D9%83%D9%85%D9%83_%D8%AC%D8%A7%D8%A6%D8%B1" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ألا يا نسيم الريح حكمك جائر</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%85%D9%88%D8%AA_%D8%A5%D8%B0%D8%A7_%D8%B4%D8%B7%D8%AA_%D9%88%D8%A3%D8%AD%D9%8A%D8%A7_%D8%A5%D8%B0%D8%A7_%D8%AF%D9%86%D8%AA" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أموت إذا شطت وأحيا إذا دنت</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A5%D9%86_%D8%A7%D9%84%D8%BA%D9%88%D8%A7%D9%86%D9%8A_%D9%82%D8%AA%D9%84%D8%AA_%D8%B9%D8%B4%D8%A7%D9%82%D9%87%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>إن الغواني قتلت عشاقها</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%AA%D8%B0%D9%83%D8%B1%D8%AA_%D9%84%D9%8A%D9%84%D9%89_%D9%88%D8%A7%D9%84%D8%B3%D9%86%D9%8A%D9%86_%D8%A7%D9%84%D8%AE%D9%88%D8%A7%D9%84%D9%8A%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>تذكرت ليلى والسنين الخواليا</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%AA%D8%B9%D9%84%D9%82%D8%AA_%D9%84%D9%8A%D9%84%D9%89_%D9%88%D9%87%D9%8A_%D8%BA%D8%B1_%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>تعلقت ليلى وهي غر صغيرة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%AE%D9%84%D9%8A%D9%84%D9%8A_%D9%85%D8%B1%D8%A7_%D8%A8%D9%8A_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%A3%D8%A8%D8%B1%D9%82_%D8%A7%D9%84%D9%81%D8%B1%D8%AF" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>خليلي مرا بي على الأبرق الفرد</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%AE%D9%84%D9%8A%D9%84%D9%8A_%D9%87%D9%84_%D9%82%D9%8A%D8%B8_%D8%A8%D9%86%D8%B9%D9%85%D8%A7%D9%86_%D8%B1%D8%A7%D8%AC%D8%B9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>خليلي هل قيظ بنعمان راجع</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%B0%D9%83%D8%B1%D8%AA%D9%83_%D9%88%D8%A7%D9%84%D8%AD%D8%AC%D9%8A%D8%AC_%D9%84%D9%87%D9%85_%D8%B6%D8%AC%D9%8A%D8%AC" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ذكرتك والحجيج لهم ضجيج</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%B3%D8%A3%D8%A8%D9%83%D9%8A_%D8%B9%D9%84%D9%89_%D9%85%D8%A7_%D9%81%D8%A7%D8%AA_%D9%85%D9%86%D9%8A_%D8%B5%D8%A8%D8%A7%D8%A8%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>سأبكي على ما فات مني صبابة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%B9%D9%81%D8%A7_%D8%A7%D9%84%D9%84%D9%87_%D8%B9%D9%86_%D9%84%D9%8A%D9%84%D9%89_%D9%88%D8%A5%D9%86_%D8%B3%D9%81%D9%83%D8%AA_%D8%AF%D9%85%D9%8A" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>عفا الله عن ليلى وإن سفكت دمي</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%81%D8%A4%D8%A7%D8%AF%D9%8A_%D8%A8%D9%8A%D9%86_%D8%A3%D8%B6%D9%84%D8%A7%D8%B9%D9%8A_%D8%BA%D8%B1%D9%8A%D8%A8" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>فؤادي بين أضلاعي غريب</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%81%D9%8A%D8%A7_%D9%82%D9%84%D8%A8_%D9%85%D8%AA_%D8%AD%D8%B2%D9%86%D8%A7_%D9%88%D9%84%D8%A7_%D8%AA%D9%83_%D8%AC%D8%A7%D8%B2%D8%B9%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>فيا قلب مت حزنا ولا تك جازعا</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%84%D9%82%D8%AF_%D9%87%D8%AA%D9%81%D8%AA_%D9%81%D9%8A_%D8%AC%D9%86%D8%AD_%D9%84%D9%8A%D9%84_%D8%AD%D9%85%D8%A7%D9%85%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>لقد هتفت في جنح ليل حمامة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%84%D9%8A%D8%A7%D9%84%D9%8A_%D8%A3%D8%B5%D8%A8%D9%88_%D8%A8%D8%A7%D9%84%D8%B9%D8%B4%D9%8A_%D9%88%D8%A8%D8%A7%D9%84%D8%B6%D8%AD%D9%89" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ليالي أصبو بالعشي وبالضحى</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%85%D8%A7_%D8%A8%D8%A7%D9%84_%D9%82%D9%84%D8%A8%D9%83_%D9%8A%D8%A7_%D9%85%D8%AC%D9%86%D9%88%D9%86_%D9%82%D8%AF_%D9%87%D9%84%D8%B9%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ما بال قلبك يا مجنون قد هلعا</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%88%D8%A3%D8%AC%D9%87%D8%B4%D8%AA_%D9%84%D9%84%D8%AA%D9%88%D8%A8%D8%A7%D8%AF_%D8%AD%D9%8A%D9%86_%D8%B1%D8%A3%D9%8A%D8%AA%D9%87" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>وأجهشت للتوباد حين رأيته</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%88%D9%82%D8%A7%D9%84%D9%88%D8%A7_%D9%84%D9%88_%D8%AA%D8%B4%D8%A7%D8%A1_%D8%B3%D9%84%D9%88%D8%AA_%D8%B9%D9%86%D9%87%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>وقالوا لو تشاء سلوت عنها</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%88%D9%85%D9%85%D8%A7_%D8%B4%D8%AC%D8%A7%D9%86%D9%8A_%D8%A3%D9%86%D9%87%D8%A7_%D9%8A%D9%88%D9%85_%D9%88%D8%AF%D8%B9%D8%AA" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ومما شجاني أنها يوم ودعت</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%8A%D8%A7_%D8%B1%D8%A8_%D8%A5%D9%86%D9%83_%D8%B0%D9%88_%D9%85%D9%86_%D9%88%D9%85%D8%BA%D9%81%D8%B1%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>يا رب إنك ذو من ومغفرة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%8A%D9%82%D9%88%D9%84%D9%88%D9%86_%D9%84%D9%8A%D9%84%D9%89_%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82_%D9%85%D8%B1%D9%8A%D8%B6%D8%A9" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>يقولون ليلى بالعراق مريضة</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D8%AD%D8%A8%D9%83_%D8%AD%D8%A8%D8%A7_%D9%84%D9%88_%D8%AA%D8%AD%D8%A8%D9%8A%D9%86_%D9%85%D8%AB%D9%84%D9%87" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أحبك حبا لو تحبين مثله</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D8%AD%D9%86_%D8%A5%D9%84%D9%89_%D8%A3%D8%B1%D8%B6_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%B2_%D9%88%D8%AD%D8%A7%D8%AC%D8%AA%D9%8A" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أحن إلى أرض الحجاز وحاجتي</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%84%D8%A7_%D9%82%D8%A7%D8%AA%D9%84_%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D9%87%D9%88%D9%89_%D9%85%D8%A7_%D8%A3%D8%B4%D8%AF%D9%87" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>ألا قاتل الله الهوى ما أشده</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D8%A3%D9%8A%D8%A7_%D9%82%D8%A8%D8%B1_%D9%84%D9%8A%D9%84%D9%89_%D9%84%D9%88_%D8%B4%D9%87%D8%AF%D9%86%D8%A7%D9%83_%D8%A3%D8%B9%D9%88%D9%84%D8%AA" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>أيا قبر ليلى لو شهدناك أعولت</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+<a class="poem" style="text-decoration:none" href="https://ar.wikisource.org/wiki/%D9%88%D8%A5%D9%86%D9%8A_%D9%88%D8%A5%D9%86_%D9%84%D9%85_%D8%A2%D8%AA_%D9%84%D9%8A%D9%84%D9%89_%D9%88%D8%A3%D9%87%D9%84%D9%87%D8%A7" target="_blank" rel="noopener">
+      <span class="tag">صفحة القصيدة في ويكي مصدر</span>
+      <h3>وإني وإن لم آت ليلى وأهلها</h3>
+      <p class="note">افتحي النص الكامل ومراجعة روايته في المصدر التراثي ↗</p>
+    </a>
+ </div>
+</section>
+
+<section class="wrap" id="original">
+ <div class="section-title"><div class="ornament">✦</div><h2>كلمات كُتبت لكِ</h2><p>نصوص جديدة من إعداد صاحب الهدية، وليست من شعر قيس</p></div>
+ <div class="grid">
+  <article class="poem"><span class="tag new">نص جديد</span><h3>حين تقرئين</h3><div class="verses">إذا مررتِ ببيتِ شعرٍ قديمْ
+وتبسّمتِ، فليكنْ في بالكِ
+أن وراء هذه الصفحة قلبًا
+أراد أن يترك لكِ شيئًا جميلًا.</div><p class="note">نص حديث كُتب لهذه الهدية، وليس اقتباسًا تراثيًا.</p></article>
+  <article class="poem"><span class="tag new">نص جديد</span><h3>هدية صغيرة</h3><div class="verses">ما استطعتُ أن أجمعَ كلَّ القصائد،
+فصنعتُ لكِ مكانًا يجمع ما أحببتِ.
+وإن عاد بكِ بيتٌ إلى هذه الصفحة،
+فقد وصلتْ هديتي كما تمنّيتُ.</div><p class="note">نص حديث كُتب لهذه الهدية، وليس من ديوان مجنون ليلى.</p></article>
+ </div>
+</section>
+
+<section class="wrap" id="expanded-index">
+ <div class="section-title"><div class="ornament">❧</div><h2>فهرس موسّع للقصائد</h2><p>للوصول إلى أكبر قدر من الشعر المنسوب إلى قيس بن الملوّح</p></div>
+ <div class="about-card">
+  <p>تضمّ صفحة الشاعر في ويكي مصدر فهرسًا يضم نحو 120 صفحة قصيدة منسوبة إلى قيس بن الملوّح. لأن روايات الديوان تختلف، أضفنا رابطًا للفهرس الأصلي حتى تتمكّني من فتح القصائد وقراءة نصوصها ومقارنة رواياتها، بدل أن ننسخ نصوصًا غير مكتملة وندّعي أنها الديوان كاملًا.</p>
+  <p><a class="button" style="background:#763e50" href="https://ar.wikisource.org/wiki/تصنيف:قيس_بن_الملوح_(مجنون_ليلى)" target="_blank" rel="noopener">فتح فهرس القصائد كاملًا ↗</a></p>
+  <p>ومن القصائد التي ستجدينها في الفهرس: «تذكرت ليلى والسنين الخواليا»، «ألا ليتنا كنا غزالين نرتعي»، «أحن إلى ليلى وإن شطت النوى»، «وقالوا لو تشاء سلوت عنها»، «وأجهشت للتوباد حين رأيته»، وغيرها.</p>
+  <p class="note">المصدر الخارجي: ويكي مصدر — تصنيف قيس بن الملوّح (مجنون ليلى). تختلف نسبة بعض الأشعار وألفاظها بين الروايات، لذا تُعرض الأبيات داخل هذه الصفحة مع تنبيه واضح عند الحاجة.</p>
+ </div>
+</section>
+
+
+<section class="wrap" id="heritage-verses">
+ <div class="section-title"><div class="ornament">☾</div><h2>أبيات من الرواية التراثية</h2></div>
+ <p class="note">أضفنا هنا أبياتًا قصيرة واردة في ترجمة قيس بن الملوّح في «سير أعلام النبلاء» على ويكي مصدر. وجود البيت في مصدر تراثي لا يعني أن كل تفاصيل قصة العاشقين محسومة تاريخيًا؛ لذلك أبقينا نسبة الأبيات واضحة ومتواضعة.</p>
+ <div class="poem-grid" id="heritageGrid">
+  <article class="poem" data-search="تعلقت ليلى وهي ذات ذوابة"><h3>تعلّقت ليلى وهي ذات ذوابة</h3><div class="verses"><p>تعلّقت ليلى وهي ذاتُ ذوابةٍ</p><p>ولم يبدُ للأترابِ من ثديِها حجمُ</p><p>صغيرين نرعى البهمَ يا ليتَ أننا</p><p>إلى اليومِ لم نكبرْ ولم تكبرِ البهمُ</p></div><p class="source">المصدر: «سير أعلام النبلاء/قيس بن الملوح» — ويكي مصدر.</p></article>
+  <article class="poem" data-search="أظن هواها تاركي بمضلة"><h3>أظنّ هواها تاركي بمضلة</h3><div class="verses"><p>أظنُّ هواها تاركي بمضلّةٍ</p><p>من الأرضِ لا مالٌ لديَّ ولا أهلُ</p><p>ولا أحدٌ أُفضي إليه وصيّتي</p><p>ولا وارثٌ إلا المطيةُ والرحلُ</p><p>محا حبُّها حبَّ الأُلى كنَّ قبلَها</p><p>وحلّت مكانًا لم يكن حلَّ من قبلُ</p></div><p class="source">المصدر: «سير أعلام النبلاء/قيس بن الملوح» — ويكي مصدر.</p></article>
+  <article class="poem" data-search="وداع دعا إذ نحن بالخيف من منى"><h3>وداعٌ دعا إذ نحن بالخيف من منى</h3><div class="verses"><p>وداعٌ دعا إذ نحنُ بالخيفِ من منى</p><p>فهيّجَ أطرافَ الفؤادِ ولم يدرِ</p><p>دعا باسمِ ليلى غيرَها فكأنّما</p><p>أطارَ بليلى طائرًا كان في صدري</p></div><p class="source">المصدر: «سير أعلام النبلاء/قيس بن الملوح» — ويكي مصدر. قد تختلف ألفاظ الروايات.</p></article>
+  <article class="poem" data-search="أيا حرجات الحي حيث تحملوا"><h3>أيا حرجات الحيّ حيث تحمّلوا</h3><div class="verses"><p>أيا حرجاتِ الحيِّ حيثُ تحمّلوا</p><p>بذي سَلَمٍ لا جادَكُنَّ ربيعُ</p><p>وخيماتُكِ اللاتي بمنعرجِ اللوى</p><p>بلينَ بلىً لم تُبلِهنَّ ربوعُ</p></div><p class="source">المصدر: «سير أعلام النبلاء/قيس بن الملوح» — ويكي مصدر.</p></article>
+ </div>
+ <p class="note">للمراجعة: <a href="https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/قيس_بن_الملوح" target="_blank" rel="noopener">افتح صفحة المصدر التراثي ↗</a> · وللاطلاع على النسخة المصوّرة القديمة: <a href="https://ar.wikisource.org/wiki/ملف:ديوان_قيس_بن_الملوح.pdf" target="_blank" rel="noopener">ديوان قيس بن الملوّح المصوّر ↗</a>.</p>
+</section>
+
+
+<section class="wrap" id="more-heritage">
+ <div class="section-title"><div class="ornament">❧</div><h2>قصائد أخرى من الفهرس التراثي</h2></div>
+ <p class="note">هذه مختارات إضافية من صفحات ويكي مصدر المصنّفة ضمن شعر قيس بن الملوّح. يختلف توثيق القصائد وألفاظها بين المصادر؛ لذلك أرفقنا مصدر كل قصيدة بدل الادعاء بأن هذه نسخة محققة نهائية.</p>
+ <div class="poem-grid" id="moreHeritageGrid">
+  <article class="poem" data-search="ألا لا أحب السير إلا مصعدا"><h3>ألا لا أحبّ السير إلا مصعدًا</h3><div class="verses"><p>ألا لا أحبُّ السيرَ إلا مصعّدًا</p><p>ولا البرقَ إلا أن يكونَ يمانيًا</p><p>على مثلِ ليلى يقتلُ المرءَ نفسُه</p><p>وإن كنتُ من ليلى على اليأسِ طاويًا</p><p>إذا ما تمنّى الناسُ روحًا وراحةً</p><p>تمنّيتُ أن ألقاكِ يا ليلَ خاليًا</p></div><p class="source">المصدر: <a href="https://ar.wikisource.org/wiki/ألا_لا_أحب_السير_إلا_مصعدا" target="_blank" rel="noopener">صفحة القصيدة في ويكي مصدر ↗</a></p></article>
+  <article class="poem" data-search="فيا قلب مت حزنا ولا تك جازعا"><h3>فيا قلبُ مُت حزنًا ولا تك جازعًا</h3><div class="verses"><p>فيا قلبُ مُت حزنًا ولا تك جازعًا</p><p>فإنَّ جزوعَ القومِ ليس بخالدِ</p><p>هويتَ فتاةً كالغزالةِ وجهُها</p><p>وكالشمسِ يسبي دلُّها كلَّ عابدِ</p><p>ولي كبدٌ حرّى وقلبٌ معذّبٌ</p><p>ودمعٌ حثيثٌ في الهوى غيرُ جامدِ</p></div><p class="source">المصدر: <a href="https://ar.wikisource.org/wiki/فيا_قلب_مت_حزنا_ولا_تك_جازعا" target="_blank" rel="noopener">صفحة القصيدة في ويكي مصدر ↗</a></p></article>
+  <article class="poem" data-search="فو الله ثم الله إني لدائبا"><h3>فو الله ثم الله إني لدائبًا</h3><div class="verses"><p>فو اللهِ ثم اللهِ إني لدائبًا</p><p>أفكّرُ ما ذنبي إليكِ فأعجبُ</p><p>وواللهِ ما أدري علامَ هجرتِني</p><p>وأيُّ أمورٍ فيكِ يا ليلُ أركبُ</p><p>فلو تلتقي أرواحُنا بعدَ موتِنا</p><p>ومن دونِ رمسَينا من الأرضِ منكبُ</p></div><p class="source">المصدر: <a href="https://ar.wikisource.org/wiki/فو_الله_ثم_الله_إني_لدائبا" target="_blank" rel="noopener">صفحة القصيدة في ويكي مصدر ↗</a></p></article>
+  <article class="poem" data-search="ألا أيها الشيخ الذي ما بنا يرضى"><h3>ألا أيها الشيخُ الذي ما بنا يرضى</h3><div class="verses"><p>ألا أيها الشيخُ الذي ما بنا يرضى</p><p>شقيتَ ولا هنيتَ في عيشكَ الغَضا</p><p>شقيتَ كما أشقيتني وتركتني</p><p>أهيمُ مع الهُلّاكِ لا أُطعمُ الغمضا</p><p>أما والذي أبلى بليلى بليّتي</p><p>وأصفى لليلى من مودّتي المحضا</p></div><p class="source">المصدر: <a href="https://ar.wikisource.org/wiki/ألا_أيها_الشيخ_الذي_ما_بنا_يرضى" target="_blank" rel="noopener">صفحة القصيدة في ويكي مصدر ↗</a></p></article>
+ </div>
+ <p class="note">تنبيه: هذه مقتطفات قصيرة لتسهيل القراءة داخل الهدية، وليست نقلًا كاملًا للقصائد. افتحوا رابط المصدر لمراجعة النص الكامل والرواية كما وردت هناك.</p>
+</section>
+
+<section class="wrap" id="about">
+ <div class="section-title"><div class="ornament">❧</div><h2>عن هذه النسخة</h2></div>
+ <div class="about-card">
+  <p>قيس بن الملوّح، المعروف بمجنون ليلى، شاعر ارتبط اسمه في التراث العربي بحكاية حبه لليلى. وصل شعره عبر روايات وجمعات مختلفة، وقد تختلف نسبة بعض الأبيات وصيغها من مصدر إلى آخر.</p>
+  <p><strong>ملاحظة للقارئة:</strong> هذه صفحة إهداء ونسخة أولية؛ الأبيات الموسومة «منسوبة» ليست معروضة بوصفها محققة نهائيًا. يمكن توسيعها لاحقًا بالرجوع إلى طبعة محققة أو مصدر تراثي واضح، مع ذكر المصدر بجانب كل قصيدة.</p>
+  <p>صُنعت هذه الصفحة بمحبة، لتكون كتابًا صغيرًا يمكن العودة إليه.</p>
+ </div>
+</section>
+</main>
+<footer class="foot">
+ <p>«بعض الهدايا لا تُغلّف بورق… بل تُترك لها صفحة تعود إليها.»</p>
+ <p class="tiny">صُمّمت بمحبة ♥ | مجنون ليلى — قيس بن الملوّح</p>
+ <p><a href="#home">العودة إلى البداية ↑</a></p>
+</footer>
+<script>
+const search = document.getElementById('search');
+search.addEventListener('input', () => {
+ const q = search.value.trim().toLowerCase();
+ document.querySelectorAll('#poemGrid .poem, #morePoemGrid .poem, #sorted-poems .poem, #catalogueGrid .poem, #heritageGrid .poem, #moreHeritageGrid .poem').forEach(card => {
+   card.classList.toggle('hidden', !card.innerText.toLowerCase().includes(q) && !card.dataset.search.toLowerCase().includes(q));
+ });
+});
+</script>
+</body>
+</html>
